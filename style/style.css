@@ -1,0 +1,74 @@
+*{
+ 	margin:0;
+    padding: 0;
+    border: 0; 
+    font-weight: normal;
+}
+input{
+	outline: none;
+}
+body{
+	background-image: url("../image/Mustang.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#background{
+	background-color: black;
+	position: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+#container{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 10%;
+    color: white;
+    position: relative;
+    font-family: Helvetica;
+
+}
+#container p{
+	text-align: center;
+	font-size: 26px;
+}
+#container form{
+	border: 2px solid white;
+	width: 30%;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: rgba(0,0,0,0.5);
+}
+#container form label{
+	text-align: left;
+	display: block;
+	padding: 20px 0 10px 0;
+	font-size: 18px;
+}
+#container form input{
+	padding: 10px;
+	display: block;
+	width: calc(100% - 20px);
+	color: white;
+	border: 1px solid white;
+	background: transparent;
+}
+#container form .submit{
+	width: 100%;
+	margin-top: 20px;
+	color: black;
+	border: 1px solid white;
+	border: 1px solid white;
+	background: white;
+	cursor: pointer;
+}
+#message{
+	width: 30%;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 18px;
+}

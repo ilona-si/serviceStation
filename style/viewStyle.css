@@ -1,0 +1,187 @@
+*{
+ 	margin:0;
+    padding: 0;
+    border: 0; 
+    font-weight: normal;
+}
+body{
+    background-image: url("../image/lamborghini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background{
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+*:focus{
+    outline: none;
+    background:white;}
+input{
+    outline: none;
+}
+header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0 70px 0px;
+    position: relative;
+}
+header #search{
+    float: left;
+    width: 50%;
+    background-color: white;
+}
+header #search input{
+    float: left;
+    width: 90%; 
+
+}
+#search button{
+    padding: 1% 5px;
+    background-color: white;
+    outline: none;
+}
+#search button img{
+    height: 30px;
+    width: 30px;
+    background: white;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+header #exit{
+    float: right;
+    border:1px solid white;
+}
+header #exit input{
+    background-color: white;
+}
+header input{
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+#response{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 5px 10px;
+}
+.notFound{
+    font-size: 26px;
+    color: yellow;
+}
+li a{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Helvetica;
+    color: yellow;
+}
+li a:hover{
+    color: white;
+}
+ul li p{
+    display: inline-block;
+    padding: 5px 0;
+    font-style: italic;
+    width: 21%;
+}
+.name{
+    font-style: normal;
+    width: 15%;
+}
+#connect{
+    padding:0;
+    margin: 0 auto;
+    width: 70%;
+}
+#container{
+    width: 50%;
+    padding-top: 15px;
+    color: white;
+    position: relative;
+    font-family: Helvetica;
+    padding-left: 10px;
+    float: left;
+
+}
+#container p{
+    text-align: left;
+    font-size: 22px;
+    margin: 0 auto;
+}
+#container form{
+    border: 2px solid white;
+    width: 80%;
+    padding: 25px;
+    margin-top: 40px;
+    background: rgba(0,0,0,0.5);
+}
+#container form label{
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    width: 30%;
+    margin: 10px 0;
+}
+#container form input{
+    padding: 10px;
+    display: inline-block;
+    width: calc(65% - 20px);
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    margin: 10px 0;
+}
+#container form input:last-child{
+    width: 100%;
+    margin-top: 30px;
+    color: black;
+    border: 1px solid white;
+    border: 1px solid white;
+    background: white;
+    cursor: pointer;
+}
+#message{
+    width: 30%;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 18px;
+}
+#list{
+    width: 45%;
+    padding-top: 15px;
+    color: white;
+    position: relative;
+    font-family: Helvetica;
+    padding-left: 10px;
+    float: right;
+
+}
+#list p{
+    text-align: left;
+    font-size: 22px;
+}
+#list a{
+    font-size: 18px;
+}
+#list .sub{
+    font-size: 16px;
+    margin-bottom: 13px; 
+    font-style: italic;
+    padding:2px 0;
+}

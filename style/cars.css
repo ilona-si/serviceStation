@@ -1,0 +1,190 @@
+*{
+ 	margin:0;
+    padding: 0;
+    border: 0; 
+    font-weight: normal;
+    color: white;
+}
+body{
+    background-image: url("../image/mclaren.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica;
+}
+#background{
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+header{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0 70px 0px;
+}
+header p{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+}
+#back{
+    font-size: 15px;
+    width: 10%;
+    float: left;
+    margin-left: 30%;
+}
+#back a{
+    text-decoration: none;
+}
+#back a:hover{
+    color: #94da5e;
+}
+header form{
+    float: right;
+    border:1px solid white;
+}
+header #exit{
+    background-color: white;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#container{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+#container ul{
+    width: 50%;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+*:focus{
+    outline: none;
+    background:white;
+}
+.title{
+   color: #94da5e;
+   font-size: 22px;
+}
+.title:hover{
+    color: white;
+}
+.upButton{
+   margin-bottom: 50px;
+   display: block;
+}
+.upButton button{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border:1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+.data{
+    width: 50%;
+    display: block;
+}
+.data li{
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 5px 10px;
+}
+.data p{
+    font-style: italic;
+    width: 40%;
+    display: inline-block;
+}
+.name{
+    font-style: normal;
+    width: 20%;
+}
+.color{
+    color: #94da5e;
+}
+.color:hover{
+    color: #929797;
+}
+.edit{
+    display: none;
+    padding: 10px;
+}
+.edit p{
+    color: #94da5e;
+    padding: 10px;
+    font-size: 18px;
+}
+.edit button{
+    width: 43%;
+    padding: 10px;
+    margin: 10px 3%;
+    border:1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+.edit input{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    margin: 3%;
+}
+#create{
+    width: 30%;
+    border:1px solid white;
+    float: right;
+    background: rgba(0,0,0,0.5);
+    margin-top: 30px;
+}
+#create input{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+    margin: 5% 7%;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+#create input:last-child{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Helvetica;
+    cursor: pointer;
+    width: 85%;
+}
+#create label{
+    font-size: 24px;
+    display: inline-block;
+    padding-left: 28px;
+    margin-top: 19px;
+    color: #94da5e;
+}
+#containerUL{
+    float: left;
+}
+header span{
+    color: #94da5e;
+}
